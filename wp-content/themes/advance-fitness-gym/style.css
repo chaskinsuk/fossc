@@ -1,0 +1,1341 @@
+/*
+Theme Name: Advance Fitness Gym
+Theme URI: https://www.themeshopy.com/themes/free-wordpress-fitness-theme/
+Author: Themeshopy
+Author URI: https://www.themeshopy.com/
+Description: Advance Fitness Gym is a bold, impactful, intuitive and dynamic fitness WordPress theme for gyms, fitness clubs, yoga classes, weight loss centres, personal trainers, aerobics classes, healthcare centres, spa, workout studios, zumba classes, physiotherapists, health consultants and all the fitness freaks who are on a mission to make people healthy and fit. This multipurpose theme has an inviting design to make people turn their heads towards your website at least once. The Bootstrap framework gives a strong base with responsive layout yielding a beautiful look on different sizes of mobiles, tablets and desktops. Facility for customization is provided right at your fingertips, through theme customizer, without requiring any coding knowledge. Advance Fitness Gym loads on all browsers and can be translated into numerous local and international languages. It is optimized for search engines and integrated with social media icons. It offers interactive features and animated transitions to make the site stand apart among others. With multiple layouts for header, footer and sidebars, you can style your website to suit your brand. It comes with thorough documentation that will let you make the most of your website irrespective of your skills. Demo: https://themeshopy.com/advance-fitness-gym-pro/
+Version: 0.1
+license: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: advance-fitness-gym
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support, threaded-comments, blog, e-commerce, portfolio
+
+Advance Fitness Gym WordPress Theme has been created by Themeshopy, 2018.
+Advance Fitness Gym WordPress Theme is released under the terms of GNU GPL
+
+In this theme some code is taken from Twenty Sixteen.
+*/
+
+/* Basic Style */
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+body{
+	margin:0;
+	padding:0;
+	-ms-word-wrap:break-word;
+	word-wrap:break-word;
+	background-color:#fff;
+	font-size: 15px;
+	color:#5b5b5b;
+	letter-spacing: 1px;
+	font-family: 'Ubuntu', sans-serif;
+}
+img{
+	margin:0;
+	padding:0;
+	border:none;
+	max-width:100%;
+	height:auto;
+}
+section img{
+	max-width:100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0;
+	padding:10px 0;
+	color: #000
+}
+p{
+	margin:0 0 15px;
+	padding:0;
+	font-size:18px;
+	line-height:normal;
+	font-weight:normal;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+	color:#666;
+}
+a:focus,
+a:hover{
+	text-decoration:none !important;
+}
+ul{
+	margin:0 0 0 15px;
+	padding:0;
+}
+:hover{-webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+select{
+  width:100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary{
+  clear:both;
+}
+.clear{
+	clear:both;
+}
+input[type='submit']:hover{
+	cursor: pointer;
+}
+.center{
+	text-align:center;
+	margin-bottom:40px;
+}
+.middle-align{
+	margin:0 auto;
+	padding:20px 0 20px;
+}
+.wp-caption{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	max-width:100%;
+}
+.wp-caption-text{
+	margin:0;
+	padding:0;
+}
+.screen-reader-text {
+	position: absolute;
+	top:-9999em;
+	left:-9999em;
+}
+.sticky{
+	margin:0;
+	padding:0;
+}
+.gallery-caption{
+	margin:0;
+	padding:0;
+}
+.alignleft,
+ img.alignleft {
+ 	display: inline;
+	float: left;
+	margin-right:20px;
+	margin-top:4px;
+	margin-bottom:10px;
+	padding:0;
+	border:1px solid #bbb;
+	padding:5px;
+}
+.alignright,
+ img.alignright {
+	display: inline;
+	float: right;
+	border:1px solid #bbb;
+	padding:5px;
+	margin-bottom:10px;
+	margin-left:25px;
+}
+.aligncenter,
+ img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0;
+}
+.comment-list .comment-content ul {
+	list-style:none;
+	margin-left:15px;
+}
+.comment-list .comment-content ul li{
+	margin:5px;
+}
+#respond{
+	clear:both;
+}
+.toggleMenu{
+ 	display:none;
+}
+.bypostauthor{
+	margin:0;
+	padding:0;
+}
+small{
+	font-size:14px !important;
+}
+input[type="text"],
+input[type="email"],
+input[type="phno"],
+ textarea{
+	border:1px solid #bcbcbc;
+	width:100%;
+	font-size:16px;
+	padding:10px 10px;
+	margin:0 0 23px 0;
+	height:auto;
+}
+textarea{
+	height:111px;
+}
+input[type="search"] {
+  padding: 10px;
+  border: none;
+  color: #000;
+}
+input[type="submit"] {
+	border: none;
+	text-align:center;
+	font-size:18px;
+	padding:7px 30px;
+	background: #000;
+	font-weight:bold;
+	color:#fe5e24;
+}
+
+/* ---------Buttons--------- */
+a.button{
+	background:#fe5e24;
+	color: #fff;
+	font-size: 16px;
+	margin: 20px 0 0;
+	padding: 10px 30px;
+	font-weight:bold;
+}
+/* ---------Top Menu--------- */
+.top_headbar{
+  background-color: #161415;
+}
+#header .socialbox a {
+  color: #fff;
+}
+#header .top-contact {
+  color: #fff;
+  top: 6px;
+}  
+#header .contact{
+  padding: 8px;
+}
+#header .top-contact i {
+  color: #f05d29;
+  padding: 2px 7px;
+}
+#header .socialbox a i {
+  padding: 10px;
+}
+#header .socialbox {
+  text-align: right;
+}
+.middle-header {
+  background: #fafafa;
+}
+/* ---------Middle Header--------- */
+.logo{
+  margin:0;
+  letter-spacing: 1px;
+}
+.logo h1{
+  font-size:20px;
+  font-weight:bold;
+  text-align:left;
+}
+.logo a{
+  color: #000;
+  text-transform: uppercase;
+}
+.logo p{
+  font-size:12px;
+  color: #000;
+}
+.middle-header input[type="search"] {
+  font-size: 15px;
+  width: 88%;
+}
+.middle-header input[type="search"]::placeholder{
+  color: #000;
+}
+.middle-header button[type="submit"]{
+  padding: 10px 29px;
+  background: url(images/search.png) no-repeat scroll 20px;
+  text-indent: -9999px;
+  border: none;
+  cursor: pointer;
+}
+.middle-header form {
+  border: solid 1px #000;
+  margin: 25px 0;
+}
+.account a i {
+  color: #fff;
+  background: #fe5e24;
+  padding: 13px;
+}
+.account{
+  text-align: center;
+  margin: 25px 0;
+}
+
+/* --------- Main Menu--------- */
+
+.main-menu .nav ul li a{
+  padding: 15px !important;
+}
+.main-menu .nav ul li a:hover{
+  color:#fe5e24 !important;
+}
+
+/* ---------HEADER--------- */
+#header .nav {
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+#header .nav ul {
+	margin:0;
+	padding:0;
+	font-weight:400;
+	font-size:14px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+#header .nav ul li{
+	display:inline-block;
+	margin:0;
+	position:relative;
+}
+#header .nav ul li a{
+	color:#ffffff;
+	padding:10px;
+	display:block;
+}
+#header ul.sub-menu:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 7px solid;
+  border-bottom-color: #000;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  top: -7px;
+  left: 15%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+}
+
+/* --------- Category --------- */
+.categry-title {
+  background: #fe5e24;
+  padding: 15px;
+}
+.categry-title i {
+  color: #fff;
+  margin-right: 10px;
+}
+.categry-title span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+.product-category {
+  border: solid 1px #e1e1e1;
+  background: #fff;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+/* width */
+.product-category::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+.product-category::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+.product-category::-webkit-scrollbar-thumb {
+  background: #000; 
+}
+/* Handle on hover */
+.product-category::-webkit-scrollbar-thumb:hover {
+  background: #fe5e24; 
+}
+.product-category li {
+  list-style: none;
+  border-bottom: solid 1px #e1e1e1;
+  padding: 15px;
+}
+.product-category img {
+  width: 25%;
+  margin-right: 10px;
+}
+.product-category a {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* --------- Slider --------- */
+#slider{ 
+  max-width:100%; 
+  margin:auto; 
+  padding:0;
+  background: #000;
+}
+#slider img {
+  width: 100%;
+  opacity: 0.7;
+}
+#slider .carousel-item-next,#slider .carousel-item-prev,#slider .carousel-item.active {
+  display: block !important;  
+}
+.carousel-control-prev, .carousel-control-next{
+  opacity: unset !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  width: auto;
+  height: auto;
+}
+#slider .carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  background: #1714167d;
+  bottom: initial;
+  width: 52%; 
+  margin: 0 auto;
+}
+#slider .inner_carousel h2 {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: 1px;
+  color: #fe5e24;
+  padding: 6px 2px;
+}
+#slider .inner_carousel p {
+  letter-spacing: 0px;
+  margin-bottom: 0;
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.5;
+  padding: 10px 15px;
+}
+#slider .inner_carousel {
+  color: #fff;
+  text-align: center;
+}
+
+/*---------- Services -----------*/
+.fitnes-post {
+  background: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: -11%;
+  position: relative;
+  padding: 28px;
+}
+.fitnes-post a h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.fitnes-post p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0px 8px;
+  line-height: 1.5;
+  text-align: center;
+}
+#fitness-content .service-border a h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+#fitness-content {
+    margin: 2% 0;
+}
+
+/*---------- Welcome section -----------*/
+#fitness-togym{
+  padding:2% 0;
+}
+#fitness-togym .know-btn {
+ text-align: left; 
+ margin-top: 35px;  
+}
+#fitness-togym .know-btn a.blogbutton-small {
+ color: #000;
+  padding: 10px 17px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid;
+}
+#fitness-togym .single-content p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+#fitness-togym .wlcm-hr
+{
+    background-color: #fe5e24;
+    width: 19%;
+    height: 2px;
+}
+#fitness-togym .single-content h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+/*----------------- Homepage ----------------*/
+.page-box {
+  padding: 10px;
+  border-bottom: solid 2px #fe5e24;
+}
+.page-box h4 a{
+	color:#000;
+	margin:0 0 29px 0;
+	padding:0;
+}
+.page-box p{
+	font-size:15px;
+	margin:10px 0;
+	line-height: 25px;
+	color: #999;
+}
+.box-image{
+	margin:0;
+}
+#banner img{
+	width:100%;
+	opacity: 0.7;
+}
+#our-services img{
+	width:100%;
+}
+#our-services .services-box{
+	margin:40px 0 20px 0;
+}
+.second-border a {
+  border: solid 1px #000;
+  padding: 12px 25px;
+  font-size: 15px;
+  color: #000;
+}
+.second-border a:hover {
+  background: #fe5e24;
+  color: #000;
+}
+.second-border{
+  text-align: right;
+  margin: 25px 0; 
+}
+
+/* --------- Blog Page ------- */
+.metabox{
+	color:#000;
+	padding: 5px 0 15px;
+	clear:both;
+}
+.metabox span {
+  margin-right: 24px;
+  font-size: 14px;
+}
+.metabox i {
+  margin-right: 5px;
+}
+span.meta-nav {
+  background: #fe5e24;
+  color: #000;
+  padding: 8px;
+}
+
+/* Headings */
+section h2{
+	font-weight:bold;
+	text-align:center;
+	margin:0 0 45px;
+	padding:0;
+	text-transform:uppercase;
+}
+section h3{
+	font-weight:bold;
+	text-align:center;
+	margin:30px 0 0 0;
+	text-transform:uppercase;
+}
+section h4{
+	color:#000;
+	font-weight:bold;
+	font-size:20px;
+}
+section h5{
+	color:#3890cb;
+	font-weight:bold;
+	font-size:24px;
+	margin:0 0 10px 0;
+	padding:0;
+}
+a.r_button {
+	background: #3790ca;
+	padding: 0.5em 2em;
+	color: #fff;
+}
+section .innerlightbox{
+	background-size:100% 100%;
+	padding:4.5em 0;
+	color:#000;
+}
+
+/* Footer Section */
+#footer label{
+  width: 100%;
+}
+#footer .widget {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+.tagcloud a {
+  color: #fff;
+}
+#footer input[type="search"] {
+  width: 95%;
+  border: none;
+  padding: 7px 6px;
+  border: solid 1px #fe5e24;
+  color: #000;
+}
+#footer input[type="submit"] {
+  font-size: 10px;
+  padding: 12px 8px;
+  font-weight: bold;
+  color: #fff;
+  margin: 3px 0 0 0;
+  font-size: 15px;
+  width: 100%
+}
+#footer td#prev a {
+  color: #fff;
+}
+table#wp-calendar {
+  width: 100%;
+}
+#footer caption,
+#sideabr caption {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+#footer table,#footer th,#footer td,
+#sidebar table,#sidebar th,#sidebar td {
+  border: 1px solid #d1d1d1;
+  text-align: center;
+}
+#sidebar td,
+#sidebar td#prev a,
+#sidebar th {
+	color:#202020 !important;
+	padding: 5px;
+}
+#footer td {
+  padding: 7px;
+  color: #fff;
+}
+#footer th,
+#sidebar th {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+#footer select,
+#sidebar select {
+  padding: 8px 5px;
+  color: #4d4d4d;
+}
+#footer li a {
+  color: #fff;
+  font-size: 15px;
+}
+#footer ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+#footer ul {
+	margin: 0;
+}
+#footer{
+	background:#000;
+	color:#fff;
+	clear:both;
+}
+#footer h3{
+	text-align:left;
+	text-transform:uppercase;
+	font-size:24px;
+	font-weight: bold;
+	padding:0 0 17px 0;
+	color: #fe5e24;
+}
+#footer p{
+	font-size:14px;
+}
+#footer .news-form{
+	margin-top:24px;
+}
+#footer input[type="text"]{width:60%;
+	padding:8px 5%;
+	float:left;
+	margin-right:2%;
+	border-radius:5px;
+}
+#footer input[type="submit"] {
+  padding: 6px 0;
+  float: right;
+  background: #fe5e24;
+  border-radius: 0px;
+  color: #fff;
+  margin-top: -38px;
+}
+.copyright p {
+  font-size: 16px !important;
+  color: #fff;
+  margin-bottom: 0;
+}
+.copyright p a{
+  color: #fff;
+}
+.copyright {
+  background: #fe5e24;
+  padding: 20px 0px;
+  text-align:center;
+}
+#footer .tagcloud a {
+  border: outset 2px #999;
+  color: #fff;
+  font-size: 15px !important;
+  padding: 5px 18px;
+  margin: 0 2px 6px;
+  display: inline-block;
+}
+#footer .tagcloud a:hover{
+  background-color: #fe5e24; 
+}
+
+/* --------- POST --------- */
+
+.bradcrumbs{
+	padding:30px 0;
+}
+.bradcrumbs a{
+	background:#f1f1f1;
+	color:#000;
+	padding:5px 15px;
+	margin-right:5px;
+}
+.bradcrumbs a:hover{
+	background:#ffd34e;
+}
+.bradcrumbs span{
+	background:#dddddd;
+	color:#000;
+	padding:5px 15px;
+}
+
+/* Comments BOX */
+#comments {
+  display: block;
+  margin-top: 66px;
+}
+#comments h2.comments-title{
+  font-size:20px;
+  font-weight:bold;
+  border-top:2px dotted #7e7e7e;
+  padding:40px 0 0 0;
+}
+#comments h3.comment-reply-title{
+  font-size:20px;
+  font-weight:bold;
+  clear:both;
+}  
+#comments input[type="text"],
+#comments input[type="email"],
+#comments textarea{
+  width:100%;
+  padding:12px 10px;
+  font-size:18px;
+  margin:20px 0 0 0;
+}
+#comments input[type="submit"].submit{
+  background:#fe5e24 !important;
+  padding:10px 50px;
+  text-transform:normal;
+  font-weight:bold;
+  color: #000;
+  margin-top:20px;
+  margin-left:0;
+  border: none;
+}
+#comments a.comment-reply-link{
+  color:#000;
+  background:#cecece;
+  padding:5px 15px;
+}
+#comments a.comment-reply-link:hover{
+  background:rgb(21, 28, 39);
+  color: #fff;
+}
+#comments a time{
+  color:#000;
+  font-weight:bold;
+  font-size:12px;
+}
+#content-ts #comments ol li{
+  width:100%;
+  background:none;list-style:none;
+  margin: 0 0 20px;
+  background:#eee;
+  display:inline-block;
+}  
+#content-ts #comments ul{
+  margin:0 0 0 40px;
+}
+#comments .reply{
+  float:right;
+}
+#comments .comment-author{
+  width:100%;
+}  
+#comments .comment-metadata{
+  width:90%;
+  float:left;
+  padding:1% 0 0 0;
+}  
+#comments .comment-content{
+  width:90%;
+  float:left;
+  margin-left:7%;
+}  
+#comments p {
+  width:90%;
+  float:left;
+}
+/*------------- Woocommerce --------------*/
+.woocommerce .products li {
+  width: 30% !important;
+  text-align: center;
+  margin: 0px 22px 20px 0 !important;
+}
+.woocommerce #sidebar {
+  margin-top: 2em;
+}
+a.showcoupon,
+.woocommerce-message::before{
+	color: #fe5e24;
+}
+.woocommerce-message {
+  border-top-color: #fe5e24;
+}
+.woocommerce span.onsale {
+  background: #fe5e24;
+  color: #fff;
+  padding: 0;
+  border-radius: 0;
+  margin: 0 !important;
+}
+h2.woocommerce-loop-product__title{
+  color: #999;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 15px !important;
+}
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  color: #000;
+}
+.woocommerce div.product .product_title,.woocommerce div.product p.price, .woocommerce div.product span.price{
+	margin-bottom: 5px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	background: #fe5e24;
+	color: #fff;
+	border-radius: 0;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+	background: #000;
+	color: #fff;
+}
+.woocommerce .quantity .qty {
+  width: 5em;
+  padding: 5px;
+  border-radius: 0;
+  border: solid 1px #000;
+  color: #000;
+}
+.col-1,.col-2 {
+  max-width: 100%;
+}
+nav.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+  background: #fe5e24 !important;
+  padding: 12px!important;
+  margin-bottom: 10px;
+}
+nav.woocommerce-MyAccount-navigation ul li a{
+  color: #fff;
+  font-weight: bold;
+}
+.posted_in {
+  display: block;
+}
+.woocommerce .woocommerce-ordering select{
+	padding: 10px;
+}
+span.woocommerce-input-wrapper,
+.woocommerce label {
+ width: 100%;
+}
+.woocommerce div.product form.cart .button {
+    vertical-align: middle;
+    float: left;
+    padding: 9.7px;
+}
+/*------------- Sidebar -------------*/
+#sidebar caption{
+	color: #000;
+}
+#sidebar form{
+ 	display: table;
+	width: 100%;
+}
+#sidebar h3 {
+  margin: 0px 0 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #fe5e24;
+  padding: 10px;
+}
+#sidebar input[type="search"] {
+	border: solid 1px #bbb;
+	padding: 9px 10px;
+	font-size: 15px;
+  color: #bbb;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#sidebar label{
+	width:100%;
+}
+#sidebar input[type="submit"]{
+ 	background: #fe5e24;
+	border: none;
+	color: #fff;
+	padding: 10px 0;
+	letter-spacing: 2px;
+	width: 100%;
+	font-size: 18px;
+	margin: 0;
+}
+#sidebar aside {
+	margin-bottom: 30px;
+  background: #f3f3f3;
+}
+#sidebar ul {
+	list-style:none;
+	margin:0;
+	padding:10px;
+	font-size: 12px;
+}
+#sidebar ul li{
+	margin:0 0 15px;
+}
+#sidebar ul li a{
+	color:#000;
+}
+#sidebar ul li a:hover{
+	color:rgb(21, 28, 39);
+}
+label{
+	margin-bottom: 0px;
+}
+#sidebar .tagcloud a{
+	background:#eeeeee;
+	color:#000;
+	font-size:15px !important;
+	padding:5px 18px;
+	margin:0 0 5px;
+	display:inline-block;
+}
+#sidebar .tagcloud a:hover{
+	background:#fe5e24;
+}
+img.rss-widget-icon {
+  width: auto !important;
+}
+#sidebar .woocommerce ul.product_list_widget li img {
+  width: 40%;
+}
+
+/* Page */
+h1.entry-title,
+h1.page-title {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #fe5e24;
+}
+#content-ts p{
+	text-align:justify;
+	line-height: 25px;
+	font-size: 16px;
+	margin:0 0 20px 0;
+}
+#content-ts hr{
+	border:none;
+	border-bottom:2px dotted #7e7e7e;
+	margin:35px 0;
+	clear:both;
+}
+#content-ts h2{
+	font-size:32px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	color:#000;
+	margin:0 0 25px;
+}
+#content-ts h3{
+	font-size:36px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	color:#000;
+	margin:0 0 25px;
+}
+#content-ts h4{
+	font-size:20px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	color:#333;
+	margin:0 0 25px;
+}
+#content-ts ul{list-style:none;
+	margin:0 0 0 10px;
+	padding:10px 0 0;
+	font-size:16px;
+}
+#content-ts ul li{
+	padding:0;
+	margin:0 0 20px 0;
+	line-height:25px;
+}
+#content-ts ol{list-style: none;
+	padding:10px 0 0 0;
+	font-size:16px;
+	counter-reset: myCounter;
+}
+#content-ts ol li{
+	padding:0 0 0 0;
+	margin:0 0 20px 0;
+}
+
+/* Pagination */
+.nav-previous {
+    float: left;
+    width: 50%;
+    font-size: 15px;
+}
+.nav-next {
+    float: right;
+    font-size: 15px;
+    width: 50%;
+}
+.pagination {
+	clear:both;
+	position:relative;
+	font-size:14px;
+	line-height:13px;
+	float:right;
+	font-weight:bold;
+}
+.pagination span,
+.pagination a {
+	display:block;
+    float:left;
+    margin: 2px 2px 2px 0;
+    padding:10px 15px;
+    text-decoration:none;
+    width:auto;
+    color:#fff;
+    background: #000 ;
+    -webkit-transition: background .15s ease-in-out;
+    -moz-transition: background .15s ease-in-out;
+    -ms-transition: background .15s ease-in-out;
+    -o-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+}
+.pagination a:hover{
+	color:#000;
+    background: #fe5e24;
+}
+.pagination .current{
+	padding:10px 15px;
+    background: #fe5e24;
+    color:#000;
+	font-weight:bold;
+}
+
+/* Media */
+@media screen and (max-width: 768px) and (min-width: 720px){	
+ 	.box-content {
+	 display: none;
+  }
+  #sidebar th,
+  #sidebar td{
+	 padding: 4px;
+	}	
+  .woocommerce .products li {
+    width: 45% !important;
+  }
+}
+@media screen and (max-width:720px) {	
+	.contentbox{
+		width: auto;
+	}
+	#header,
+	#header .logo h1{
+		text-align: center;
+	}
+  #header .socialbox {
+    text-align: center;
+}
+	.contact span {
+    display: inline-block;
+    margin: 0;
+	}
+	#comments input[type="submit"].submit{
+		width: 100% !important;
+	}
+	section .innerlightbox {
+		padding: 0;
+	}
+	#our-services{
+		margin-top: 0;
+	}
+	.toggleMenu,
+  .toggleWooMenu{
+ 		display:block;
+	}
+	.toggle a{
+		width:100%;
+		color:#fff;
+		background:url('images/mobile_nav_right.png') no-repeat right center #000;
+		padding:10px 10px;
+		font-size:16px;
+	}
+	.nav{
+	 	display:none;
+	}
+  .top-menu .nav{
+    top: -39px !important;
+    display: none;
+  }
+	#header .nav{
+		float:none;
+		margin:0;
+		position:absolute;
+		z-index:999;
+		overflow-x:hidden;
+		width: 100%;
+		left: 0;
+		top:-152px;
+	}
+	#header .nav ul{
+		width:100%;
+		float:none !important;
+		margin-top:0;
+		background-color:#000;
+	}
+	#header .nav ul li{
+		border-top:1px #292929 solid;
+		display:block;
+		float:none;
+		text-align:left;
+	}
+	.nav ul li a{
+		padding:5px 10px;
+		display:block;
+		color:#ffffff !important;
+	}
+	.nav ul li a:hover{
+		color:#ff8a00;
+	}
+	.nav ul li ul,
+	 .nav ul li ul ul{
+		display:block !important;
+	}
+	.nav ul li ul li a:before{
+		content:"\00BB \00a0";
+	}
+	.nav ul li ul li a{
+		padding-left:20px !important;
+	}
+	.nav ul li ul li ul li a{
+		padding-left:30px !important;
+	}
+	.box-content {
+	display: none;
+    }
+    #slider .inner_carousel p {
+    display: none;
+  }
+  #slider .inner_carousel h2 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #fe5e24;
+    text-transform: uppercase;
+    padding: 6px 2px;
+  }
+   #fitness-togym .know-btn a.blogbutton-small {
+    color: #000;
+    padding: 6px 17px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid;
+  }
+  #footer input[type="submit"] {
+    padding: 6px 0;
+    float: right;
+    background: #fe5e24;
+    border-radius: 0px;
+    color: #fff;
+    margin-top: 4px;
+  }
+  #header .mail {
+    display: block;
+  }
+  .fitnes-post p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0px;
+  }
+  .fitnes-post {
+  background: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 18px;
+  position: relative;
+  }
+  #fitness-togym .know-btn {
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 14px;
+  }
+}
+@media screen and (min-width:720px){
+	#header .nav ul li ul{
+	 	display:none;
+		z-index:2;
+		font-weight:normal;
+		margin-top:12px;
+	}
+	#header .nav ul li:hover > ul{
+	 	display:block;
+		background:#000;
+		width:200px;
+		position:absolute;
+		top:30px;
+		left:0;
+		text-align:left;
+		z-index:99;
+	}
+	#header .nav ul li:hover > ul li{
+		display:block;
+	}
+	#header .nav ul li:hover > ul li a{
+		padding:7px 0px 7px 10px;
+		color:#ffffff;
+		border-bottom: solid 1px #333;
+	}
+	#header .nav ul li:hover ul li ul{
+	 	display:none;
+	}
+	#header .nav ul li:hover ul li:hover > ul{
+	 	display:block;
+		position:absolute;
+		left:200px;
+		top:5px;
+	}
+	#header .nav ul.sub-menu{
+		margin-top:10px;
+	}
+	#header .nav ul li a{
+	 color: #010101;
+    padding: 10px 12px;
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 12px;
+    text-transform: uppercase;
+	}
+	#footer input[type="submit"]{
+		width: 100%;
+		float: none;
+		margin-top: 5px;
+	}
+	#footer input[type="search"]{
+		width: 100%;
+	}
+	#footer th,
+	#footer td{
+		padding: 0px;
+	}	
+}
+@media screen and (min-width: 1000px) {
+	#header #header-inner .nav ul li ul li{
+	 	display:block;
+		position:relative;
+		float:none;
+	}
+	#header #header-inner .nav ul li ul li a{
+		color:#000;
+		display:block;
+		padding-top:10px;
+		padding-bottom:10px;
+		border-bottom:1px #313131 solid;
+	}
+	#footer input[type="submit"]{
+		margin-top: 5px;
+	}
+	#footer th,
+	#footer td
+	{
+		padding: 4px;
+	}
+}
+@media screen and (max-width: 425px){
+	#footer input[type="search"]{
+		width: 100%;
+	}
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product{
+		width: 100% !important;
+		float: none !important;
+	}
+}

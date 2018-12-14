@@ -1,0 +1,27 @@
+Version 1.0.0
+i) Intial version Release
+
+Version 1.2.2
+i) All issues fixed as per theme reviewer pointed out.
+
+Version 1.2.3
+i)  Include Proper License
+ii) Manage screenshot size properly
+iii) Added content-search.php file
+
+Version 1.2.4
+i) Manage screenshot size properly
+ii) Fixed pingback_url issues
+
+Version 1.2.5
+ii) Added alt tag for the image
+
+Version 1.2.6
+i) Added valid sanitize_callback for dropdown pages 
+
+Version 1.2.7
+i) Some changes.
+
+
+
+

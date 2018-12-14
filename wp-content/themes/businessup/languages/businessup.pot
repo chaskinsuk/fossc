@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: businessup\n"
+"POT-Creation-Date: 2018-07-08 19:25+0530\n"
+"PO-Revision-Date: 2018-07-08 19:25+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress9\\wp-content\\themes"
+"\\businessup\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress9\\wp-content\\themes"
+"\\businessup\n"
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/archive.php:41
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/index.php:30
+msgid "<i class=\"fa fa-arrow-left\"></i>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/archive.php:42
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/index.php:31
+msgid "<i class=\"fa fa-arrow-right\"></i>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/content.php:42
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/functions.php:86
+msgid "Primary menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/functions.php:87
+msgid "Top Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/functions.php:88
+msgid "Social Links Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/functions.php:218
+msgid "Slider Section Widgets"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/functions.php:253
+msgid "Read More"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/functions.php:264
+msgid "Get started with Demo Import Businessup Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/breadcrumb.php:25
+msgid "Archive by category"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/breadcrumb.php:28
+msgid "Search results for"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/breadcrumb.php:86
+msgid "Posts tagged"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/breadcrumb.php:91
+msgid "Articles posted by"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/breadcrumb.php:94
+msgid "Error 404"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/breadcrumb.php:99
+msgid "Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/businessup-custom-navwalker.php:177
+msgid "Home"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/import.php:8
+msgid ""
+"Click on the IMPORT DEMO DATA button below to install the <a href=\"https://"
+"themeansar.com/demo/wp/businessup/lite/\">exact demo replica of the "
+"Businessup theme</a></br></br>\n"
+"\t\t\tTo use WooCommerce or Gallery in the theme, install the plugin given "
+"below.:</br> </br><li> <a href=\"https://wordpress.org/plugins/contact-"
+"form-7/\"> Contact form 7</a> </l1> </br> <li> <a href=\"https://wordpress."
+"org/plugins/woocommerce/\"> WooCommerce </a> </li><li> <a href=\"https://"
+"wordpress.org/plugins/tiled-gallery-carousel-without-jetpack/\"> Gallery "
+"Carousel </a></li>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_copyright.php:7
+msgid "Footer Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_copyright.php:11
+msgid "Footer Background Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_copyright.php:25
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:166
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:336
+msgid "Choose Background Image"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_copyright.php:31
+msgid "Footer Widget Column Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_copyright.php:47
+msgid "Select Column Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:9
+msgid "Header Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:13
+msgid "Header Top Bar Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:24
+msgid "Hide/Show Topbar"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:36
+msgid "Info one"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:48
+msgid "Info two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:60
+msgid "Top Button"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:72
+msgid "Button Link"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:84
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:256
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:295
+msgid "Open Link New window"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:90
+msgid "Header Widget One Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:102
+msgid "One Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:114
+msgid "One Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:126
+msgid "One Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:134
+msgid "Header Widget Two Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:146
+msgid "Two Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:158
+msgid "Two Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:170
+msgid "Two Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:178
+msgid "Header Widget Three Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:190
+msgid "Three Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:202
+msgid "Three Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_header.php:214
+msgid "Three Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:7
+msgid "Frontpage Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:17
+msgid "Slider Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:29
+msgid "Hide/Show Slider Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:42
+msgid "Slider Overlay Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:59
+msgid "Service Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:73
+msgid "Hide/Show Service Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:86
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:347
+msgid "Overlay Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:98
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:188
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:358
+msgid "Text Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:113
+msgid "Service Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:125
+msgid "Service Subtitle"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:139
+msgid "Callout Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:152
+msgid "Hide/Show Callout Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:204
+msgid "Callout Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:217
+msgid "Callout Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:230
+msgid "Button One Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:243
+msgid "Button One URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:269
+msgid "Button Two Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:282
+msgid "Button Two URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:308
+msgid "News & Events Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:323
+msgid "Hide/Show News Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:373
+msgid "Hide/Show Blog Meta:- Like author name,categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:386
+msgid "Latest News Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/customize/ta_customize_homepage.php:399
+msgid "Latest News Subtitle"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:53
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:57
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:82
+msgid "Get started with Businessup"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:496
+msgid "Import Dummy Data"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:497
+msgid ""
+"<p><strong>One Click Demo Import</strong> is the WordPress Plugin helps to "
+"create exact replica of businessup theme. Click and Process.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:498
+msgid "Key Notes:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:500
+msgid "Click the button to install the plugin. Ignore if already installed."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/themeinfo/themeinfo-detail.php:501
+msgid "After activation go to Appreance >> Import Demo Data."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/widget/businessup-service.php:15
+msgid "BUP - Service Widget"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/widget/businessup-service.php:97
+msgid ""
+"Enter  Font Awesome icon class ( like: fa-cloud ). <a href=\"//fontawesome."
+"io/fa_icons/\" target=\"blank\" >Here all icon </a>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/widget/businessup-service.php:121
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/widget/businessup-slider.php:123
+msgid "Uploaded image"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress9\wp-content\themes\businessup/inc/ansar/widget/businessup-slider.php:17
+msgid "BUP - Slider Widget"
+msgstr ""

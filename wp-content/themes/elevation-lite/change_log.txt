@@ -1,0 +1,13 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.0.2
+i) Theme Screenshot change as per new WordPress guidline
+
+Version 1.0.3
+i) We Removed Functionality Title on slider
+
+
+
+
+
