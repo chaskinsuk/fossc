@@ -237,7 +237,7 @@ $class_intro = NULL;
 			$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_post(0)), 'single-post-thumbnail');
 			echo '<style>
 					.banner-id {
-						background-image: url(' . $image[0] . ') !important;
+						background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url(' . $image[0] . ') !important;
 						background-position: center center !important;
     					background-repeat: no-repeat !important;
 						background-size: cover !important;
